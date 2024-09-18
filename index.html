@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Metadatos -->
+  <meta charset="utf-8">
+  <meta name="author" content="Jane Doe">
+  <meta name="description" content="Portafolio de desarrollo web de Jane Doe">
+  <meta name="keywords" content="HTML, CSS, JavaScript, React">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Titulo -->
+  <title>Jane Doe | Desarrollo Web Front-End</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- Iconos de Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- CSS -->
+  <link href="style.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+  <!-- Barra de navegacion -->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+          <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Albums</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonios">Opinions</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Seccion Hero -->
+  <section class="hero align-items-stretch">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/music.png" alt="Foto de Jane Doe">
+      <h1 class="h1">Welcome to the Best Rap Albums Site</h1>
+      <h2 class="h1">Discover the best hip-hop records of all time.</h2>
+
+    </div>
+    <div class="hero-inferior">
+      <img class="hero-inferior-imagen img-fluid" src="imagenes/RapAlbums.png"
+        alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+    </div>
+  </section>
+
+  <!-- Sobre mi -->
+  <section id="sobre-mi" class="sobre-mi seccion-oscura">
+    <div class="contenedor">
+      <h2 class="seccion-titulo">The history of rap</h2>
+      <p class="seccion-texto">Rap music originated in the 1970s in the Bronx, New York City, as part of the broader
+        hip-hop culture that also included elements like DJing, breakdancing, and graffiti art. Early rap was performed
+        at block parties and street gatherings, where DJs would loop beats from funk and soul records, creating rhythms
+        that MCs (rappers) would rhyme over.
+
+        One of the pivotal moments in the development of rap was DJ Kool Herc’s famous back-to-school jam in 1973, where
+        he introduced the concept of the "breakbeat." By extending instrumental breaks using two turntables, Herc
+        allowed dancers, known as B-boys and B-girls, to showcase their skills. At the same time, MCs started to hype
+        the crowd with rhythmic, rhyming speech, laying the foundation for what would eventually become modern rap.</p>
+
+    </div>
+  </section>
+
+  <!-- Experiencia -->
+  <section class="influencia seccion-clara">
+    <div class="container text-center">
+      <div class="row">
+        <!-- Golden Era del Rap -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-vinyl-fill icono-grande "></i> <!-- Icono relacionado con la música -->
+          <p class="influence-title">Golden Era of Rap</p>
+          <p>Known as the best era of rap, this period spans the late 1980s and early 1990s. Artists like Nas, Public
+            Enemy, and Wu-Tang Clan redefined the genre with iconic albums.</p>
+
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Nas</span>
+            <span class="badge text-bg-primary">Public Enemy</span>
+            <span class="badge text-bg-primary">Wu-Tang Clan</span>
+          </div>
+        </div>
+        <!-- Artistas Innovadores -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-mic-fill icono-grande "></i> <!-- Icono de micrófono para representar artistas -->
+          <p class="influencia-titulo">Innovative Artists</p>
+          <p>Artists like Kanye West and Kendrick Lamar have transformed rap with albums that blend sounds, genres, and
+            political messages, setting a new direction for hip-hop.</p>
+
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Kanye West</span>
+            <span class="badge text-bg-primary">Kendrick Lamar</span>
+            <span class="badge text-bg-primary">Drake</span>
+          </div>
+        </div>
+        <!-- Subgéneros del Rap -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-headphones icono-grande "></i> <!-- Icono de audífonos para representar la música -->
+          <p class="influence-title">Rap Subgenres</p>
+          <p>Rap has a variety of subgenres, ranging from trap to gangsta rap. Each has produced memorable albums that
+            have impacted both culture and the music industry.</p>
+
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Trap</span>
+            <span class="badge text-bg-primary">Gangsta Rap</span>
+            <span class="badge text-bg-primary">Conscious Rap</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Proyectos -->
+  <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+    <h2 class="seccion-titulo texto-negro">Classic Rap Albums</h2>
+    <h3 class="seccion-descripcion">These are some of the most influential albums in rap history....</h3>
+    <!-- Galeria de Proyectos -->
+    <div class="container text-center proyectos-contenedor">
+      <div class="row">
+        <!-- Álbum 1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/mbdt.png" alt="My Beautiful Dark Twisted Fantasy">
+            <div class="overlay">
+              <p>My Beautiful Dark Twisted Fantasy</p>
+              <div class="iconos-contenedor">
+                <a href="https://www.amazon.com.mx/Beautiful-Twisted-Fantasy-Vinyl-Importado/dp/B004D7GU3M/ref=sr_1_1?dib=eyJ2IjoiMSJ9.PlD5OXTe-fTJAN1aD98oQGm4fyboNsFXE-9XVarCz44PXqLl37_nQMbRQNU6QQkuwiKg9DHtCIYNTrqV1vgGIv1f3lMysjt00iHCMJYDO8MUZSgK3IpB2EEGrcdys668Q-MaFOWJr8vteBVn14syOLZRav-xeD3VCDaJ0xV2Q2m2gc9boqzr1nkUP-JahgNagWVLG2kUOy2eGJg0ieth_vVcA0ifrWqp7k0PECi_fe2ipIsXFOuEn2HAseirkP8QYd0-4cuYOX3NLA1H_WKqZbWViPjI1cRrGbKqCFSVTCE.DxalO_c1S5U__YR4Soovyzj37_L_ZUPQgiR8mEj0sPQ&dib_tag=se&keywords=my+beautiful+dark+twisted+fantasy&qid=1726632338&sr=8-1&ufe=app_do%3Aamzn1.fos.242f5c11-6cfd-40d6-91f6-be3d1974080c"
+                  target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-amazon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Álbum 2 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/pimp.png" alt="To Pimp A Butterfly">
+            <div class="overlay">
+              <p>To Pimp A Butterfly</p>
+              <div class="iconos-contenedor">
+                <a href="https://www.amazon.com.mx/Pimp-Butterfly-Kendrick-Lam/dp/B00UMLJNSC/ref=sr_1_1?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14C8HTCNVI2MI&dib=eyJ2IjoiMSJ9.WCqBal9xVTnWq1duOtb0sWmzTi6c8d6aBjNv0Z8m8kPIYB7a2QCWS7_G_39AcLaW9w4g4Xde8TkL4Y-GyS6h2yICjEgFZEq6x01t_asMgK7jfQNrUU_tU4eBwpGCD3TCxlr4ZCplVTHKPO0c0DN4Mseo0Vk6BUvhaNNMXfxwJsmVMfWc7B2QMO755UoS6UGOqsCNKLo53DhYFgJte4-eg_8jpqSvawagwtoDEpFzxmkbYlS63FhtaU3aC4RjKVIpPP3j8zL3fFz5MxM_RLYuLBZefKFE43GHN21gLkW5K3M.HeV28KPW-WWVVrMwPRj5QzzijJvXiqOIZrSqvvCHbrY&dib_tag=se&keywords=to+pimp+a+butterfly&qid=1726632277&sprefix=to+pimp+a+butterfly+%2Caps%2C101&sr=8-1&ufe=app_do%3Aamzn1.fos.242f5c11-6cfd-40d6-91f6-be3d1974080c"
+                  target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-amazon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Álbum 3 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/nas.png" alt="Illmatic">
+            <div class="overlay">
+              <p>Illmatic</p>
+              <div class="iconos-contenedor">
+                <a href="https://www.amazon.com.mx/Illmatic-Vinyl-Nas/dp/B00004WX4X/ref=sr_1_2?crid=1XNT2JR96K1CJ&dib=eyJ2IjoiMSJ9.fKbj-Hg3DH9KH5fR504l4ssf0vUUyyo65YmC-eYzVYr1wJaXz2IMlvf_eD8psZoWDL51UUFF2mOAxZ4li2he7fA47ScE2SgNKn6fdnI4ylAgyQqxtR8huISDyYfhX54njK1xupiyh9QuEHDot_LyiUEEqLdqSwXZMcbgxzy94-q9Jif-x3_b39T2vkeie_FU8hdCiBZHwuXdawa0pU-sgHgsLJA7diXIIWCujenhOhXlCazY-ZgsCVCj3Rrd0x5fjpVFw6SwixH0M8pSOCYjhIrIDk7IC7rJutJxfqqpuBM.VvObk5DEXiTjrNveNvnoE-bLJMolNap4lHk6FuCN4D0&dib_tag=se&keywords=illmatic+vinyl&qid=1726632378&sprefix=illma%2Caps%2C108&sr=8-2&ufe=app_do%3Aamzn1.fos.242f5c11-6cfd-40d6-91f6-be3d1974080c"
+                  target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-amazon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Álbum 4 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/igor.png" alt="Igor">
+            <div class="overlay">
+              <p>Igor</p>
+              <div class="iconos-contenedor">
+                <a href="https://www.amazon.com.mx/Igor-Vinyl-Creator-Tyler/dp/B07T6S1CC1/ref=sr_1_1?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=X95UTCTKAXHI&dib=eyJ2IjoiMSJ9.OQDfIkc0D2SUtjwnqzSJvN06G_yp9pHEsAezLP3CPNSMEhsfxGOAtT1-PpG3TeDVkqkTJl-c-nnNqyTnUlZGbgw5TChpvNO6pFeorVJRG-pczCWKiaDg6d1_gEE9DbAVebDOj6vehfFrpcneODkiyJpq3R286S16ElJMYcPOvqcrtfVRL07iCr3MjedI9SXnSN3qjRfikcUa4PEkCWGHCb1tf_u5ZBsLlCy5rNNoup3fSfUqStY5f7U72EaHjvgfgIR94wvdpmdLTUXdMw5935L628Vys3dlBJIkQSCBBaw.jPaf7TAv_P8VsOu3_DUxwARs3vy6M2F0KaPZi7w48rA&dib_tag=se&keywords=igor&qid=1726632395&sprefix=igor%2Caps%2C108&sr=8-1&ufe=app_do%3Aamzn1.fos.242f5c11-6cfd-40d6-91f6-be3d1974080c"
+                  target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-amazon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Álbum 5 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/marshal.png" alt="The Marshall Matters LP">
+            <div class="overlay">
+              <p>The Marshall Matters LP</p>
+              <div class="iconos-contenedor">
+                <a href="https://www.amazon.com.mx/Marshall-Mathers-LP-CD/dp/B0BZBYRLCY/ref=sr_1_2?crid=JXDVT7HVRE2G&dib=eyJ2IjoiMSJ9.S11vz7Uf1fmkXEiGhSB51WM8CMWX8t1_aD3GYED_cXy9Y3PsVH-E98CROhyL3hZM9nDynkVVGd0y_i52a7O02fib21MVht633kjc3iYsMsDU16ZVRMana6o80MFUr1g8hAM5X478vNWAo8eqdDuG0WbzhX6CyU8i03P6ApPqtFrhIFLCisWeykmbGuO-MUIw-aqs_siiBQEClmqpe2-fIzBkqB_ahYSRrxEjC6B0twDosNc-ean5JBUd4zmDhUMu2dYdyHYxRo9_Ri9T6gvGDAnqivpHIPMREASTxWoZ8Ts.IYCMImERbP8Z9cPvpRnhJ-um7s1hC2vxZsgwELrzl0c&dib_tag=se&keywords=the+marshall+mathers+lp&qid=1726632413&sprefix=the+marsha%2Caps%2C107&sr=8-2&ufe=app_do%3Aamzn1.fos.242f5c11-6cfd-40d6-91f6-be3d1974080c"
+                  target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-amazon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Álbum 6 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/doom.png" alt="Madvillainy">
+            <div class="overlay">
+              <p>Madvillainy</p>
+              <div class="iconos-contenedor">
+                <a href="https://www.amazon.com.mx/Madvillainy-Vinyl-Importado-Madvillain/dp/B000EGDD7M/ref=sr_1_1?crid=3GR305DBQC5ZP&dib=eyJ2IjoiMSJ9.i-Mh-bmShJn905YK6UZjakSMvThzKWBFoA2pb8GmfCvdMN9ctZdjrscRyVifUjTSCp2wI7JsxVKh66w4oc25m0SqTL2niC_4qCnkd4_LP5TbcpYz3ZiJROPaT7lbbgeydmsIrO0iWvBF1s33rlCh30WQxPDCR8qhZTH9AMXKvzKW9c7Yd6hRI28kxJzMFX1CMcmHIDesHCgo__W0Ui-71XDgiP-iHMOxhJ2ufD2uVw0.y2oHxXrcYngDdlmAGR8t3o2cwrywSogb_emIiinXZTU&dib_tag=se&keywords=madvillainy+vinyl&qid=1726632448&sprefix=madv%2Caps%2C117&sr=8-1&ufe=app_do%3Aamzn1.fos.242f5c11-6cfd-40d6-91f6-be3d1974080c"
+                  target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-amazon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Articulos -->
+  <section class="articulos justify-content-start">
+    <h2 class="seccion-titulo texto-negro">Rap Articles</h2>
+    <div class="card">
+      <div class="card-header">
+        Most recent articles
+      </div>
+      <ul class="list-group list-group-flush">
+        <a href="https://thepaperwolf.com/2024/05/14/how-nass-1994-album-illmatic-changed-the-rap-industry-forever/ target="
+          _blank" rel="noopener noreferrer">
+          <li class="list-group-item">
+            Review of 'Illmatic' by Nas - The Album That Changed Rap Forever
+          </li>
+        </a>
+        <a href="https://okayfuturelabs.com/blogs/news/the-evolution-of-hip-hop-production" target="_blank"
+          rel="noopener noreferrer">
+          <li class="list-group-item">
+            The Evolution of Hip-Hop: From Its Origins to the Digital Era
+          </li>
+        </a>
+        <a href="https://hiphopdx.com/editorials/most-anticipated-upcoming-rap-hip-hop-albums-2023" target="_blank"
+          rel="noopener noreferrer">
+          <li class="list-group-item">
+            The Best Rap Albums of 2023: A Look at the Most Anticipated Releases
+          </li>
+        </a>
+        <a href="https://medium.com/modern-music-analysis/to-pimp-a-butterfly-by-kendrick-lamar-a-retrospective-look-originally-published-in-2018-297793c31ebc"
+          target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">
+            Analysis of 'To Pimp a Butterfly': Kendrick Lamar and the Modern Narrative of Rap
+          </li>
+        </a>
+        <a href="https://www.redbull.com/ng-en/different-types-of-hip-hop-guide" target="_blank"
+          rel="noopener noreferrer">
+          <li class="list-group-item">
+            Understanding Rap Subgenres: Trap, Gangsta Rap, and More
+          </li>
+        </a>
+      </ul>
+    </div>
+  </section>
+
+
+  <!-- Testimonios -->
+  <section id="testimonios" class="testimonios seccion-clara">
+    <h2 class="seccion-titulo">Critics and Fans' Opinions</h2>
+    <h3 class="seccion-descripcion">Here are some opinions on the most iconic rap albums...</h3>
+
+    <!-- Carrusel -->
+    <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="imagenes/cliente1.svg" alt="Foto de crítico 1">
+            <p class="testimonio-texto">'Illmatic' is the album that transformed rap. With impeccable lyricism, Nas
+              captured the essence of New York's streets."</p>
+            <div class="testimonio-info">
+              <p class="cliente">David Styles</p>
+              <p class="cargo">Music critic at HipHopDX</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="imagenes/cliente2.svg" alt="Foto de fan 1">
+            <p class="testimonio-texto">"'To Pimp a Butterfly' is more than just a rap album. Kendrick Lamar blends
+              poetry and politics to create a modern masterpiece."</p>
+            <div class="testimonio-info">
+              <p class="cliente">Maria Hernandez</p>
+              <p class="cargo">Rap fan</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="imagenes/cliente3.svg" alt="Foto de crítico 2">
+            <p class="testimonio-texto">"Kanye West redefined the sound of rap with 'My Beautiful Dark Twisted Fantasy'.
+              An album that remains a reference to this day."</p>
+            <div class="testimonio-info">
+              <p class="cliente">Sarah Johnson</p>
+              <p class="cargo">Writer at The Source</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+
+  <!-- Pie de pagina (footer) -->
+  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+    <p class="footer-texto text-center">Creating beats and rhymes every day.<br>Let’s make something legendary together.</p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      <a href="https://twitter.com/rapartist" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+      </a>
+      <a href="https://soundcloud.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-cloud"></i>
+      </a>
+      <a href="https://www.spotify.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-spotify"></i>
+      </a>
+      <a href="https://www.instagram.com/rapartist" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+      </a>
+  </div>
+  
+    <div class="derechos-de-autor">Creado por Esaú Morquecho (2022) &#169;</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
